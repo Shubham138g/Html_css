@@ -1,0 +1,27 @@
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+#heading{
+    /* background-color: black; */
+    text-align: center;
+    padding-top: 30px;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.intro{
+    background-color: aqua;
+    height: 200px;
+    width: 30%;
+    color: black;
+}
+.intro h2{
+    color:black;
+    text-align: center;
+    
+}
