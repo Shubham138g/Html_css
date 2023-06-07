@@ -31,10 +31,21 @@
     height: 200px;
     width: 100%;
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     
 }
-.skill p{
+ #skill{
     color: powderblue;
     text-decoration: underline solid yellow;
+    font-size: 50px;
+}
+
+.skill li{
+    text-align: left;
+    padding-left: 12px;
+    color: white;
+}
+.skill li ul{
+    color:white;
+    text-transform: uppercase;
 }
