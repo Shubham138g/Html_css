@@ -39,3 +39,19 @@ div{
     background-image: url("fox.jpg");
     background-size: cover;
 }
+#box5{
+    background-color: chocolate;
+    position: relative;
+    top: 100px;
+    left: 600px;
+    background-image: url("fox.jpg");
+    background-size:auto;
+}
+#box6{
+    background-color: chocolate;
+    position: fixed;
+    top: 0;
+    left: 700px;
+    background-image: url("dog.jpg");
+    background-size: contain;
+}
