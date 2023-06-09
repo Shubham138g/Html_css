@@ -1,0 +1,39 @@
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("fox.jpg");
+    background-size: cover;
+    margin:30px;
+
+}   
+.inner{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(248, 6, 6);
+    background-image: url("dog.jpg");
+    background-size: cover;
+
+}
+*{
+    padding: 0;margin: 0;
+}
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    background-color: aqua;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
