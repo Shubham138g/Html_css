@@ -80,7 +80,7 @@ li{
 }
 
 .mainsecond{
-    height: 700px;
+    height: 500px;
     width: 700px;
     background-color: red;
     position: relative;
@@ -90,3 +90,25 @@ li{
     letter-spacing: 2px;
     
 }
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid #22fff; */
+}
+
+#fp1{
+    color: white;
+    position:relative;
+    text-align: center;
+    top: 190px;
+}
+
+footer p{
+    color: white;
+    position:relative;
+    text-align: center;
+    top: 220px;
+}
+
