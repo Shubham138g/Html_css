@@ -144,7 +144,7 @@ body{
     
     left: 700px;
     bottom: 465px;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
 
 }
 #what{
@@ -219,6 +219,13 @@ body{
     left: 15px;
 }
 #circle3png{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+#circle4png{
     height: 50px;
     width: 50px;
     position: relative;
