@@ -17,4 +17,8 @@ p{
 p:hover{
     color: red;
     border: 2px solid fuchsia;
+font-weight: bolder;
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
+text-transform:uppercase;
 }
