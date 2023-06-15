@@ -10,15 +10,10 @@ body{
 .container{
     height: 200px;
     width: 600px;
-    background-color:rgba(172, 255, 47, 0.274);
+    background-color:rgba(144, 235, 9, 0.945);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    /* position: relative;
-    left: 500px;
-    top: 200px; */
-
 }
 
 .table{
