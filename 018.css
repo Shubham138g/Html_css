@@ -63,14 +63,37 @@ li{
 
 .rightsec{
     height: 200px;
-    width: 400px;
+    width: 450px;
     /* background-color: aqua; */
     margin: 30px;
     position: relative;
-    left: 200px;
-    border: 2px solid red;
+    left: 100px;
+    /* border: 2px solid red; */
 }
 .rightsec p{
     margin-top: 10px;
     font-size: 16px;
+}
+
+button{
+    height: 45px;
+    width: 150px;
+    border: 2px solid wheat;
+    background:transparent;
+    color: white;
+    letter-spacing: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+input{
+    height: 40px;
+    width: 250px;
+    border: 2px solid wheat;
+    background:transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 10px;
 }
