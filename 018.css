@@ -40,5 +40,23 @@ li{
     height: 200px;
     width: 150px;
     margin: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+#box2{
+    height: 200px;
+    width: 150px;
+    margin: 30px;
+    /* border: 2px solid red; */
+}
+#box3{
+    height: 200px;
+    width: 150px;
+    margin: 30px;
+    /* border: 2px solid red; */
+}
+#box4{
+    height: 200px;
+    width: 150px;
+    margin: 30px;
+    /* border: 2px solid red; */
 }
