@@ -32,3 +32,19 @@
     top: 150px;
     right:0px;
 }
+#box4{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(14, 22, 19);
+    top: 150px;
+    right:0px;
+}
+#box5{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(14, 22, 19);
+    top: 150px;
+    right:0px;
+}
