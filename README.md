@@ -1,1 +1,1 @@
-this is a practice repo for html and css, js
+.mthis is a practice repo for html and css, js
