@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN_PANEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="left">
+                <button id="modal_btn" class="modalbtn"><a href="#">Login</a></button>
+                <button id="modal_btn_signup" class="modalbtn"><a href="#">Signup</a></button>
+            </div>
+            <div class="right">
+                <li><a href="">Home</a></li>
+                <li><a href="">help</a></li>
+                <li><a href="">Servic</a></li>
+                <li><a href="">About</a></li>
+            </div>
+        </div>
+        <div class="body">
+            <div class="center">
+
+                <h1>Welcome to my world</h1>
+            </div>
+        </div>
+    </div>
+    <!-- Creating a button which will be used to open the modal -->
+    <!-- <button id="modal_btn" class="modalbtn">Login</button> -->
+    <!-- Creating the container for the modal -->
+    <div id="modal" class="modal">
+        <div class="modalcontent">
+            <!-- Creating the contents of the modal -->
+            <span id="close_btn" class="closebtn">X</span>
+            <p class="form_title">Login Form</p>
+            <div class="login_form">
+                <form action="">
+                <label for="name">Name</label>
+                <br/>
+                    <input type="text" value="enter name">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="modal1" class="modal">
+        <div class="modalcontent">
+            <!-- Creating the contents of the modal -->
+            <span id="close_btn_signup" class="closebtn">X</span>
+            <p class="form_title">Signup Form</p>
+        </div>
+    </div>
+    <!-- Running JavaScript in HTML -->
+    <script>
+        //If the button to open the modal is clicked, then
+        //it should open the modal. ids are used to refer to the HTML elements
+        document.getElementById("modal_btn").onclick = function () {
+            document.getElementById("modal").style.display = 'block';
+        }
+       
+        // If the close button on the modal is clicked, then
+        // the modal should close. ids are used to refer to the HTML elements
+        document.getElementById("close_btn").onclick = function () {
+            document.getElementById("modal").style.display = 'none';
+        }
+        //signup modal
+        //If the button to open the modal is clicked, then
+        //it should open the modal. ids are used to refer to the HTML elements
+        document.getElementById("modal_btn_signup").onclick = function () {
+            document.getElementById("modal1").style.display = 'block';
+        }
+       
+        // If the close button on the modal is clicked, then
+        // the modal should close. ids are used to refer to the HTML elements
+        document.getElementById("close_btn_signup").onclick = function () {
+            document.getElementById("modal1").style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.navbar {
+  width: 100%;
+  height: 8vh;
+  /* background-color: #B31312; */
+  display: flex;
+}
+.navbar .left {
+  width: 30%;
+  height: 8vh;
+  background-color: #b31312;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar .left button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.228);
+  border: 3px solid black;
+  margin-right: 5px;
+  margin-left: 5px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.navbar .left button a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navbar .left button:hover {
+  color: #ea906c;
+  background-color: #2b2a4c;
+}
+.navbar .right {
+  width: 70%;
+  height: 8vh;
+  background-color: #b31312;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar .right li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.navbar .right li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.body {
+  width: 100%;
+  height: 92vh;
+  background-color: #2b2a4c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  width: 100%;
+  height: 40vh;
+  background-color: #2b2a4c;
+  display: flex;
+  justify-content: center;
+}
+.center h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  color: #eee2de;
+  letter-spacing: 2px;
+}
+
+/* /////////////////////////////
+ */
+/* Styling the open modal button */
+
+/* Styling the close modal button */
+.closebtn {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.closebtn:hover {
+  cursor: pointer;
+}
+/* Styling the modal container */
+.modal {
+  display: none;
+}
+/* Styling the text inside the modal */
+.modalcontent {
+  width: 50%;
+  height: 500px;
+  position: relative;
+  font-size: 15px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.183);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 2%;
+}
+
+.form_title{
+    font-size: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+.login_form{
+    width: 100%;
+    height: 90%;
+    background-color:yellow;
+    display: flex;
+    justify-content: flex-start;
+}

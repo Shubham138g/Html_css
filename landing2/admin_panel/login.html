@@ -1,0 +1,31 @@
+<html>
+   <head>
+    <link rel="stylesheet" href="./style.css">
+   </head>
+ <body>
+     <!-- Creating a button which will be used to open the modal -->
+   <button id="modal_btn" class="modalbtn">Login</button>
+   <!-- Creating the container for the modal -->
+   <div id="modal" class = "modal">
+       <div class="modalcontent">
+    <!-- Creating the contents of the modal -->
+           <span id="close_btn" class="closebtn">x</span>
+           <p>This is a modal!</p>
+       </div>
+   </div>
+   <!-- Running JavaScript in HTML -->
+   <script>
+    //If the button to open the modal is clicked, then
+    //it should open the modal. ids are used to refer to the HTML elements
+       document.getElementById("modal_btn").onclick = function(){
+           document.getElementById("modal").style.display = 'block';
+       }
+    // If the close button on the modal is clicked, then
+    // the modal should close. ids are used to refer to the HTML elements
+        document.getElementById("close_btn").onclick = function(){
+           document.getElementById("modal").style.display = 'none';
+       }
+
+   </script>
+</body>
+</html>
